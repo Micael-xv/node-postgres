@@ -1,7 +1,7 @@
 import { DataTypes } from 'sequelize';
 import { sequelize } from '../config';
 import Transportadora from './Transportadora';
-import Produto from './Produto';
+import Produto from './Produtos';
 
 const Entrega = sequelize.define(
   'entrega',

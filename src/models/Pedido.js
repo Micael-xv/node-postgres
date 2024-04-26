@@ -33,7 +33,7 @@ Pedido.belongsTo(Entrega, {
   onDelete: 'no action',
   onUpdate: 'no action',
   foreignKey: {
-    field: 'id_entregas',
+    field: 'id_entrega',
     name: 'idEntrega',
     allowNull: false,
   },
@@ -44,7 +44,7 @@ Pedido.belongsTo(Cliente, {
   onDelete: 'no action',
   onUpdate: 'no action',
   foreignKey: {
-    field: 'id_clientes',
+    field: 'id_cliente',
     name: 'idClientes',
     allowNull: false,
   },
