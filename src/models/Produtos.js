@@ -9,15 +9,18 @@ const Produtos = sequelize.define(
       autoIncrement: true,
       primaryKey: true,
     }, 
-    cod_barra: {
+    codBarra: {
+      field: 'cod_barra',
       type: DataTypes.INTEGER,
       allowNull: false,
     }, 
-    valor_unitario: {
+    valorUnitario: {
+      field: 'valor_unitario',
       type: DataTypes.NUMBER,
       allowNull: false,
     },
-    descricao_produto: {
+    descricaoProduto: {
+      field: 'descricao_produto',
       type: DataTypes.TEXT,
       allowNull: false,
     }
